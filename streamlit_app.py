@@ -180,11 +180,6 @@ def main():
 
             st.success('Done')
 
-    # Footer instructions
-    st.markdown('---')
-    st.markdown("**How to run**: in your terminal run `streamlit run streamlit_app.py`")
-    st.markdown("If you prefer to use the notebook, open `smart investing.ipynb` and follow the cells. This app uses the same logic but adds a UI and caching.")
-
 
 if __name__ == "__main__":
     main()
